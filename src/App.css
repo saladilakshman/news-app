@@ -1,0 +1,27 @@
+#desc{
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp: 3;
+    overflow:hidden;
+    margin-block-start:0.5rem;
+}
+#name{
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp: 2;
+    overflow:hidden; 
+}
+
+#scroll-bar::-webkit-scrollbar{
+    display:none;
+}
+#clicked{
+    color:white;
+    background-color:steelblue;
+}
+@media only screen and (max-width:476px){
+    #scroll-bar{
+        width:100%;
+        gap:1rem;
+    }
+}
