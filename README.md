@@ -1,8 +1,4 @@
-# React + Vite
+# BingNews APP
+#### A minimal news webapp built using bings news API with various categores. Note: Images may appear as low quality or blur since it was based on API pricing model I choosed for the usage of real time data
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[click here to view live demo](https://saladilakshman.github.io/news-app/)
