@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  @apply dark:bg-gray-900  bg-white font-roboto;
+}
+.no-select {
+  @apply select-none hover:bg-black hover:text-white;
+}
+.header {
+  @apply w-full dark:bg-neutral-700 text-black h-full  dark:text-white md:text-xl text-base drop-shadow-xl  lg:h-14 lg:px-4 lg:py-2;
+}
+.header-text {
+  @apply grid grid-cols-1 lg:grid-cols-12;
+}
+.card-main {
+  @apply lg:px-10 px-2 dark:bg-gray-900;
+}
+.card-layout {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 py-5;
+}
+.card {
+  @apply border-solid dark:bg-neutral-700 bg-white text-black dark:text-white drop-shadow rounded hover:drop-shadow-xl  dark:hover:bg-neutral-800 transition-colors;
+}
+.card-skeleton {
+  @apply h-2 ml-1 rounded  animate-pulse bg-gray-200 my-2;
+}
